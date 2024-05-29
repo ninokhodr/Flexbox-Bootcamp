@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(236, 236, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  width: 90%;
+}
+
+.option {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+  background-color: #dfdede;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.option:first-child {
+  background-color: #555;
+  color: white;
+}
