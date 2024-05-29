@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(184, 184, 185);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  background-color: rgb(249, 249, 249);
+  width: 900px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  background-color: rgb(178, 6, 6);
+  width: 15rem;
+  height: 15rem;
+  border-radius: 999rem;
+}
