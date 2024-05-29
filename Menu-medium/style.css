@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(181, 181, 183);
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 1.2rem 1rem;
+}
+
+.logo {
+  max-height: 50px;
+  height: auto;
+  width: auto;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.option {
+  text-decoration: none;
+  color: #555;
+  font-size: 1.2rem;
+}
