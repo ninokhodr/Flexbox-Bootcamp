@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(172, 172, 172);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.close-btn {
+  width: 1rem;
+  margin: 0.2rem 0.2rem auto auto;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.profile-img {
+  margin-top: 6rem;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.info {
+  margin-top: 0.5rem;
+}
+
+.info h2 {
+  margin: 10px 0 5px 0;
+  font-size: 1.5rem;
+}
+
+.info .title {
+  font-size: 1rem;
+  color: #888;
+}
+
+.action-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 20px 90px;
+  margin-top: 2.5rem;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  background-color: #555;
+}
